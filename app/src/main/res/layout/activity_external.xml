@@ -3,44 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_internal"
+    tools:context=".activity_external"
     android:padding="10dp"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Internal Storage"
+        android:text="External Storage"
         android:textAlignment="center"
         android:textSize="25sp"
         android:layout_marginBottom="25dp" />
-    
+
     <Button
-        android:id="@+id/buttonBuatFile"
+        android:id="@+id/buttonBuatFileEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buat File" />
 
     <Button
-        android:id="@+id/buttonUbahFile"
+        android:id="@+id/buttonUbahFileEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ubah File" />
 
     <Button
-        android:id="@+id/buttonBacaFile"
+        android:id="@+id/buttonBacaFileEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Baca File" />
 
     <Button
-        android:id="@+id/buttonHapusFile"
+        android:id="@+id/buttonHapusFileEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hapus File" />
 
     <TextView
-        android:id="@+id/textBaca"
+        android:id="@+id/textBacaEx"
         android:layout_width="match_parent"
         android:layout_height="210dp"
         android:background="@android:color/darker_gray"
